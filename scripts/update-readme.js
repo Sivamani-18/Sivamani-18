@@ -10,17 +10,15 @@ const query = `
     user(login: "${username}") {
       contributionsCollection {
         commitContributionsByRepository(maxRepositories: 5) {
+          repository {
+            name
+            url
+          }
           contributions(last: 5) {
-            nodes {
-              commit {
-                message
-                url
-                committedDate
-              }
-            }
-            repository {
-              name
+            commit {
+              message
               url
+              committedDate
             }
           }
         }
@@ -40,9 +38,9 @@ graphql(query, {
     let activity = "";
     result.user.contributionsCollection.commitContributionsByRepository.forEach((repo) => {
       activity += `### [${repo.repository.name}](${repo.repository.url})\n`;
-      repo.contributions.nodes.forEach((commit) => {
-        const date = new Date(commit.commit.committedDate);
-        activity += `- ${date.toDateString()}: [${commit.commit.message}](${commit.commit.url})\n`;
+      repo.contributions.forEach((contribution) => {
+        const date = new Date(contribution.commit.committedDate);
+        activity += `- ${date.toDateString()}: [${contribution.commit.message}](${contribution.commit.url})\n`;
       });
       activity += "\n";
     });
