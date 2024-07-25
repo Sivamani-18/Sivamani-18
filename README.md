@@ -1,13 +1,12 @@
 # Hi there, I'm Sivamani 👋
 
-![Profile Views](https://komarev.com/ghpvc/?username=Sivamani-18&color=blue) 
+![Profile Views](https://komarev.com/ghpvc/?username=Sivamani-18&color=blue)
 
 I am a software developer with a passion for creating innovative solutions and learning new technologies. Welcome to my GitHub profile!
 
 ## 📫 How to reach me:
 - Email: siva@mindwaveventures.com
 - LinkedIn: [Sivamani-18](www.linkedin.com/in/sivasubramaniyam-v-a2b967103)
-
 
 ## 🔧 Technologies & Tools
 ![JavaScript](https://img.shields.io/badge/-JavaScript-333333?style=flat&logo=javascript)
@@ -32,9 +31,8 @@ I am a software developer with a passion for creating innovative solutions and l
 -->
 
 ## 📈 GitHub Stats
-![Your Name's GitHub stats](https://github-readme-stats.vercel.app/api?username=Sivamani-18&show_icons=true&theme=radical) 
+![Your Name's GitHub stats](https://github-readme-stats.vercel.app/api?username=Sivamani-18&show_icons=true&theme=radical)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Sivamani-18&layout=compact&theme=radical)
-
 
 ## 📊 Activity Overview
 
