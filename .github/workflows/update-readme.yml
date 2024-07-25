@@ -18,9 +18,9 @@ jobs:
           node-version: '14'
 
       - name: Install Dependencies
-        run: npm install @octokit/graphql
+        run: npm install
 
       - name: Run Recent Activity Script
-        run: node scripts/update-readme.js
+        run: npm run update-readme
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
