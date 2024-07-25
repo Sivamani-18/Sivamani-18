@@ -1,20 +1,88 @@
-name: Update README with Recent Activity
+name: Update README
 
 on:
   schedule:
-    # - cron: '*/30 * * * *'  # This runs the job at every 30min
+     # - cron: '*/30 * * * *'  # This runs the job at every 30min
      - cron: '0 0 * * *'  # This runs the job at 00:00 UTC every day
+     # - cron: '0 * * * *'  # Runs every hour
   workflow_dispatch:
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - name: Update README with Recent Activity
-        uses: Sivamani-18/Sivamani-18@main
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
         with:
-          GH_USERNAME: "Sivamani-18"
-          COMMIT_MSG: "Update README with recent activity"
+          node-version: '14'
+
+      - name: Run Recent Activity
+        uses: actions/github-script@v4
+        with:
+          script: |
+            const { graphql } = require("@octokit/graphql");
+            const { execSync } = require("child_process");
+            const fs = require("fs");
+
+            const token = process.env.GH_TOKEN;
+            const username = "Sivamani-18";
+
+            const query = `
+              {
+                user(login: "${username}") {
+                  contributionsCollection {
+                    commitContributionsByRepository(maxRepositories: 5) {
+                      contributions(last: 5) {
+                        nodes {
+                          commit {
+                            message
+                            url
+                            committedDate
+                          }
+                        }
+                        repository {
+                          name
+                          url
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            `;
+
+            graphql(query, {
+              headers: {
+                authorization: `token ${token}`,
+              },
+            })
+              .then((result) => {
+                let activity = "";
+                result.user.contributionsCollection.commitContributionsByRepository.forEach((repo) => {
+                  activity += `### [${repo.repository.name}](${repo.repository.url})\n`;
+                  repo.contributions.nodes.forEach((commit) => {
+                    const date = new Date(commit.commit.committedDate);
+                    activity += `- ${date.toDateString()}: [${commit.commit.message}](${commit.commit.url})\n`;
+                  });
+                  activity += "\n";
+                });
+
+                const readme = fs.readFileSync("README.md", "utf8");
+                const newReadme = readme.replace(
+                  /<!--START_SECTION:activity-->[\s\S]*<!--END_SECTION:activity-->/,
+                  `<!--START_SECTION:activity-->\n${activity}<!--END_SECTION:activity-->`
+                );
+                fs.writeFileSync("README.md", newReadme);
+
+                execSync("git config --global user.name 'github-actions[bot]'");
+                execSync("git config --global user.email 'github-actions[bot]@users.noreply.github.com'");
+                execSync("git add README.md");
+                execSync("git commit -m 'Update README with recent activity'");
+                execSync("git push");
+              })
+              .catch((error) => console.error(error));
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
