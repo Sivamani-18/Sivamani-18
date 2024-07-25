@@ -5,8 +5,8 @@
 I am a software developer with a passion for creating innovative solutions and learning new technologies. Welcome to my GitHub profile!
 
 ## 📫 How to reach me:
-- Email: siva@mindwaveventures.com
-- LinkedIn:  [@Sivamani](https://www.linkedin.com/in/sivasubramaniyam-v-a2b967103/)
+- WhatsApp: [+91 7373288133](https://wa.me/7373288133)
+- LinkedIn:  [@Sivamani-18](https://www.linkedin.com/in/sivasubramaniyam-v-a2b967103/)
 
  
 
