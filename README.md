@@ -26,6 +26,16 @@ I am a software developer with a passion for creating innovative solutions and l
 ![WordPress](https://img.shields.io/badge/-WordPress-333333?style=flat&logo=wordpress)
 ![HTML5](https://img.shields.io/badge/-HTML5-333333?style=flat&logo=html5)
 ![CSS3](https://img.shields.io/badge/-CSS3-333333?style=flat&logo=css3)
+![MySQL](https://img.shields.io/badge/-MySQL-333333?style=flat&logo=mysql)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-333333?style=flat&logo=postgresql)
+![Sequelize](https://img.shields.io/badge/-Sequelize-333333?style=flat&logo=sequelize)
+![TypeORM](https://img.shields.io/badge/-TypeORM-333333?style=flat&logo=typeorm)
+![GraphQL](https://img.shields.io/badge/-GraphQL-333333?style=flat&logo=graphql)
+![Figma](https://img.shields.io/badge/-Figma-333333?style=flat&logo=figma)
+![Adobe XD](https://img.shields.io/badge/-AdobeXD-333333?style=flat&logo=adobe-xd)
+![Adobe Photoshop](https://img.shields.io/badge/-AdobePhotoshop-333333?style=flat&logo=adobe-photoshop)
+![Adobe Illustrator](https://img.shields.io/badge/-AdobeIllustrator-333333?style=flat&logo=adobe-illustrator)
+![Adobe Premiere](https://img.shields.io/badge/-AdobePremiere-333333?style=flat&logo=adobe-premiere-pro)
 
 <!--
 ## 🌟 Projects
