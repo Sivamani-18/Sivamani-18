@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Update README with Recent Activity
-        uses: Sivamani-18/github-activity-readme@v1
+        uses: Sivamani-18/Sivamani-18@v1
         with:
           GH_USERNAME: "Sivamani-18"
           COMMIT_MSG: "Update README with recent activity"
