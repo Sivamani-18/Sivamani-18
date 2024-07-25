@@ -9,9 +9,6 @@ const query = `
   {
     user(login: "${username}") {
       contributionsCollection {
-        contributionCalendar {
-          totalContributions
-        }
         commitContributionsByRepository(maxRepositories: 5) {
           repository {
             name
