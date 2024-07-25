@@ -1,7 +1,7 @@
 import { graphql } from "@octokit/graphql";
 import { execSync } from "child_process";
 import fs from "fs";
-import process from "process"; // Ensure process is imported
+import process from "process";
 
 const token = process.env.GH_TOKEN;
 const username = "Sivamani-18";
@@ -16,9 +16,9 @@ const query = `
             url
           }
           contributions(last: 5) {
-            committedDate
+            occurredAt
             commit {
-              messageHeadline
+              message
               commitUrl
             }
           }
@@ -42,8 +42,8 @@ async function updateReadme() {
     result.user.contributionsCollection.commitContributionsByRepository.forEach((repo) => {
       activity += `### [${repo.repository.name}](${repo.repository.url})\n`;
       repo.contributions.forEach((contribution) => {
-        const date = new Date(contribution.committedDate);
-        activity += `- ${date.toDateString()}: [${contribution.commit.messageHeadline}](${contribution.commit.commitUrl})\n`;
+        const date = new Date(contribution.occurredAt);
+        activity += `- ${date.toDateString()}: [${contribution.commit.message}](${contribution.commit.commitUrl})\n`;
       });
       activity += "\n";
     });
