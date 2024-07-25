@@ -1,4 +1,4 @@
-name: Recent Activity
+name: Update README with Recent Activity
 
 on:
   schedule:
@@ -10,7 +10,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: varunsridharan/github-action@main
+      - name: Update README with Recent Activity
+        uses: Sivamani-18/github-activity-readme@v0.1.1
         with:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          GITHUB_USERNAME: Sivamani-18
+          COMMIT_MSG: "Update README with recent activity"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
