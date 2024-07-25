@@ -11,8 +11,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Update README with Recent Activity
-        uses: Sivamani-18/github-activity-readme@v0.1.1
+        uses: joshjohanning/github-activity-readme@v1
         with:
+          GH_USERNAME: "Sivamani-18"
           COMMIT_MSG: "Update README with recent activity"
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
