@@ -1,6 +1,7 @@
 import { graphql } from "@octokit/graphql";
 import { execSync } from "child_process";
 import fs from "fs";
+import process from "process"; // Ensure process is imported
 
 const token = process.env.GH_TOKEN;
 const username = "Sivamani-18";
@@ -15,10 +16,10 @@ const query = `
             url
           }
           contributions(last: 5) {
-            occurredAt
+            committedDate
             commit {
-              message
-              url
+              messageHeadline
+              commitUrl
             }
           }
         }
@@ -27,20 +28,22 @@ const query = `
   }
 `;
 
-graphql(query, {
-  headers: {
-    authorization: `token ${token}`,
-  },
-})
-  .then((result) => {
+async function updateReadme() {
+  try {
+    const result = await graphql(query, {
+      headers: {
+        authorization: `token ${token}`,
+      },
+    });
+
     console.log("GraphQL query result:", result);
 
     let activity = "";
     result.user.contributionsCollection.commitContributionsByRepository.forEach((repo) => {
       activity += `### [${repo.repository.name}](${repo.repository.url})\n`;
       repo.contributions.forEach((contribution) => {
-        const date = new Date(contribution.occurredAt);
-        activity += `- ${date.toDateString()}: [${contribution.commit.message}](${contribution.commit.url})\n`;
+        const date = new Date(contribution.committedDate);
+        activity += `- ${date.toDateString()}: [${contribution.commit.messageHeadline}](${contribution.commit.commitUrl})\n`;
       });
       activity += "\n";
     });
@@ -61,5 +64,11 @@ graphql(query, {
     execSync("git add README.md");
     execSync("git commit -m 'Update README with recent activity'");
     execSync("git push");
-  })
-  .catch((error) => console.error(error));
+
+    console.log("README updated and changes pushed successfully.");
+  } catch (error) {
+    console.error("Error updating README:", error);
+  }
+}
+
+updateReadme();
