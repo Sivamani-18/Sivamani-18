@@ -35,6 +35,8 @@ graphql(query, {
   },
 })
   .then((result) => {
+    console.log("GraphQL query result:", result);
+
     let activity = "";
     result.user.contributionsCollection.commitContributionsByRepository.forEach((repo) => {
       activity += `### [${repo.repository.name}](${repo.repository.url})\n`;
@@ -45,12 +47,16 @@ graphql(query, {
       activity += "\n";
     });
 
+    console.log("Generated activity content:", activity);
+
     const readme = fs.readFileSync("README.md", "utf8");
     const newReadme = readme.replace(
       /<!--START_SECTION:activity-->[\s\S]*<!--END_SECTION:activity-->/,
       `<!--START_SECTION:activity-->\n${activity}<!--END_SECTION:activity-->`
     );
     fs.writeFileSync("README.md", newReadme);
+
+    console.log("Updated README content:", newReadme);
 
     execSync("git config --global user.name 'github-actions[bot]'");
     execSync("git config --global user.email 'github-actions[bot]@users.noreply.github.com'");
