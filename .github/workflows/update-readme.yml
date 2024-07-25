@@ -2,7 +2,9 @@ name: Update README
 
 on:
   schedule:
-    - cron: '0 * * * *'  # Runs every hour
+     # - cron: '*/30 * * * *'  # This runs the job at every 30min
+     - cron: '0 0 * * *'  # This runs the job at 00:00 UTC every day
+     # - cron: '0 * * * *'  # Runs every hour
   workflow_dispatch:
 
 jobs:
