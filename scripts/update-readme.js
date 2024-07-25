@@ -1,6 +1,6 @@
-const { graphql } = require("@octokit/graphql");
-const { execSync } = require("child_process");
-const fs = require("fs");
+import { graphql } from "@octokit/graphql";
+import { execSync } from "child_process";
+import fs from "fs";
 
 const token = process.env.GH_TOKEN;
 const username = "Sivamani-18";
