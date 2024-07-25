@@ -1,0 +1,11 @@
+{
+  "name": "Sivamani-18",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "update-readme": "node scripts/update-readme.js"
+  },
+  "dependencies": {
+    "@octokit/graphql": "^4.6.0"
+  }
+}
