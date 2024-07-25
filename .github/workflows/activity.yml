@@ -2,7 +2,8 @@ name: Update README with Recent Activity
 
 on:
   schedule:
-    - cron: '*/30 * * * *'
+    # - cron: '*/30 * * * *'  # This runs the job at every 30min
+     - cron: '0 0 * * *'  # This runs the job at 00:00 UTC every day
   workflow_dispatch:
 
 jobs:
@@ -11,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Update README with Recent Activity
-        uses: joshjohanning/github-activity-readme@v1
+        uses: Sivamani-18/github-activity-readme@v1
         with:
           GH_USERNAME: "Sivamani-18"
           COMMIT_MSG: "Update README with recent activity"
