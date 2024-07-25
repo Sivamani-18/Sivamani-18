@@ -6,7 +6,7 @@ I am a software developer with a passion for creating innovative solutions and l
 
 ## 📫 How to reach me:
 - Email: siva@mindwaveventures.com
-- LinkedIn: [Sivamani-18](www.linkedin.com/in/sivasubramaniyam-v-a2b967103)
+- LinkedIn: [@Sivamani](www.linkedin.com/in/sivasubramaniyam-v-a2b967103)
 
 ## 🔧 Technologies & Tools
 ![JavaScript](https://img.shields.io/badge/-JavaScript-333333?style=flat&logo=javascript)
