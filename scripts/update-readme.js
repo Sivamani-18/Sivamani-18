@@ -9,16 +9,19 @@ const query = `
   {
     user(login: "${username}") {
       contributionsCollection {
+        contributionCalendar {
+          totalContributions
+        }
         commitContributionsByRepository(maxRepositories: 5) {
           repository {
             name
             url
           }
           contributions(last: 5) {
+            occurredAt
             commit {
               message
               url
-              committedDate
             }
           }
         }
@@ -39,7 +42,7 @@ graphql(query, {
     result.user.contributionsCollection.commitContributionsByRepository.forEach((repo) => {
       activity += `### [${repo.repository.name}](${repo.repository.url})\n`;
       repo.contributions.forEach((contribution) => {
-        const date = new Date(contribution.commit.committedDate);
+        const date = new Date(contribution.occurredAt);
         activity += `- ${date.toDateString()}: [${contribution.commit.message}](${contribution.commit.url})\n`;
       });
       activity += "\n";
