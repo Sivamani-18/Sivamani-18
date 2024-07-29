@@ -47,7 +47,7 @@ https://github-readme-stats.vercel.app/api/top-langs/?username=Sivamani-18&theme
 
 
 
-## 🌟 Projects / Boilerplate
+## 🌟 Projects / Boilerplate / NPM
 - [NextJS Boilerplate](https://github.com/Sivamani-18/nextjs-boilerplate)
 - [Vite Boilerplate](https://github.com/Sivamani-18/vite-react-ts-boilerplate)
 - [Sivamani-18/github-pages-action](https://github.com/Sivamani-18/github-pages-action)
