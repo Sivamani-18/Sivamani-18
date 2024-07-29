@@ -37,11 +37,6 @@ I am a software developer with a passion for creating innovative solutions and l
 ![Adobe Illustrator](https://img.shields.io/badge/-AdobeIllustrator-333333?style=flat&logo=adobe-illustrator)
 ![Adobe Premiere](https://img.shields.io/badge/-AdobePremiere-333333?style=flat&logo=adobe-premiere-pro)
 
-<!--
-## 🌟 Projects
-- [MAIA](https://github.com/mindwaveventures/Maia3-client)
--->
-
 ## 📈 GitHub Stats
 ![Your Name's GitHub stats](https://github-readme-stats.vercel.app/api?username=Sivamani-18&theme=vue-dark&show_icons=true&hide_border=true&count_private=true)
 ![contr](https://github-readme-streak-stats.herokuapp.com/?user=Sivamani-18&theme=vue-dark&hide_border=true)
@@ -52,7 +47,16 @@ https://github-readme-stats.vercel.app/api/top-langs/?username=Sivamani-18&theme
 
 
 
+## 🌟 Projects / Boilerplate
+- [NextJS Boilerplate](https://github.com/Sivamani-18/nextjs-boilerplate)
+- [Vite Boilerplate](https://github.com/Sivamani-18/vite-react-ts-boilerplate)
+- [Sivamani-18/github-pages-action](https://github.com/Sivamani-18/github-pages-action)
+
+
+<!--
 ## 📊 Activity Overview
+-->
 
 <!--START_SECTION:activity-->
 <!--END_SECTION:activity-->
+
