@@ -51,8 +51,12 @@ https://github-readme-stats.vercel.app/api/top-langs/?username=Sivamani-18&theme
 - [NextJS Boilerplate](https://github.com/Sivamani-18/nextjs-boilerplate)
 - [Vite Boilerplate](https://github.com/Sivamani-18/vite-react-ts-boilerplate)
 - [Sivamani-18/github-pages-action](https://github.com/Sivamani-18/github-pages-action)
-- [Date Picker - NPM](https://www.npmjs.com/package/react-multi-date-picker-calendar)
 - [HTML Gulp with TailwindCSS Starter Kit](https://github.com/Sivamani-18/gulp-tailwind-starter)
+- [Date Picker - NPM](https://www.npmjs.com/package/react-multi-date-picker-calendar)
+- [Icon Picker - NPM](https://www.npmjs.com/package/react-native-app-icon-picker)
+- [Google Drive Picker - NPM](https://www.npmjs.com/package/google-drive-picker)
+- [Date Picker - NPM](https://www.npmjs.com/package/react-multi-date-picker-calendar)
+- [Textarea Auto Resize - NPM](https://www.npmjs.com/package/react-textarea-auto-resize)
 
 
 <!--
