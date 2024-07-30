@@ -38,8 +38,9 @@ I am a software developer with a passion for creating innovative solutions and l
 ![Adobe Premiere](https://img.shields.io/badge/-AdobePremiere-333333?style=flat&logo=adobe-premiere-pro)
 
 ## 📈 GitHub Stats
-![Your Name's GitHub stats](https://github-readme-stats.vercel.app/api?username=Sivamani-18&theme=vue-dark&show_icons=true&hide_border=true&count_private=true)
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Sivamani-18&theme=vue-dark&hide_border=true)
+![Your Name's GitHub stats](https://github-readme-stats.vercel.app/api?username=Sivamani-18&theme=vue-dark&show_icons=true&hide_border=true&count_private=true&include_all_commits=true)
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=Sivamani-18&theme=vue-dark&hide_border=true&count_private=true&include_all_commits=true)
+
 
 
 ![Top Langs](
@@ -67,3 +68,8 @@ https://github-readme-stats.vercel.app/api/top-langs/?username=Sivamani-18&theme
 <!--START_SECTION:activity-->
 <!--END_SECTION:activity-->
 
+## 🏆 Github Profile Trophy
+
+<a href="https://github.com/Sivamani-18">
+  <img width=800 src="https://github-profile-trophy.vercel.app/?username=Sivamani-18&margin-w=15&theme=onedark"/>
+</a>
