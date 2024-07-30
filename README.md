@@ -50,15 +50,56 @@ https://github-readme-stats.vercel.app/api/top-langs/?username=Sivamani-18&theme
 
 
 ## 🌟 Projects / Boilerplate / NPM Package
-- [NextJS Boilerplate](https://github.com/Sivamani-18/nextjs-boilerplate)
-- [Vite Boilerplate](https://github.com/Sivamani-18/vite-react-ts-boilerplate)
-- [Sivamani-18/github-pages-action](https://github.com/Sivamani-18/github-pages-action)
-- [HTML Gulp with TailwindCSS Starter Kit](https://github.com/Sivamani-18/gulp-tailwind-starter)
-- [Date Picker - NPM](https://www.npmjs.com/package/react-multi-date-picker-calendar)
-- [Icon Picker - NPM](https://www.npmjs.com/package/react-native-app-icon-picker)
-- [Google Drive Picker - NPM](https://www.npmjs.com/package/google-drive-picker)
-- [Date Picker - NPM](https://www.npmjs.com/package/react-multi-date-picker-calendar)
-- [Textarea Auto Resize - NPM](https://www.npmjs.com/package/react-textarea-auto-resize)
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Description</th>
+    <th>Link</th>
+  </tr>
+  <tr>
+    <td>NextJS Boilerplate</td>
+    <td>A boilerplate for NextJS projects</td>
+    <td><a href="https://github.com/Sivamani-18/nextjs-boilerplate">GitHub</a></td>
+  </tr>
+  <tr>
+    <td>Vite Boilerplate</td>
+    <td>A boilerplate for Vite + React + TypeScript projects</td>
+    <td><a href="https://github.com/Sivamani-18/vite-react-ts-boilerplate">GitHub</a></td>
+  </tr>
+  <tr>
+    <td>github-pages-action</td>
+    <td>GitHub Action to deploy to GitHub Pages</td>
+    <td><a href="https://github.com/Sivamani-18/github-pages-action">GitHub</a></td>
+  </tr>
+  <tr>
+    <td>HTML Gulp with TailwindCSS Starter Kit</td>
+    <td>Starter kit for HTML projects using Gulp and TailwindCSS</td>
+    <td><a href="https://github.com/Sivamani-18/gulp-tailwind-starter">GitHub</a></td>
+  </tr>
+  <tr>
+    <td>Date Picker</td>
+    <td>React multi-date picker component</td>
+    <td><a href="https://www.npmjs.com/package/react-multi-date-picker-calendar">NPM</a></td>
+  </tr>
+  <tr>
+    <td>Icon Picker</td>
+    <td>React Native app icon picker component</td>
+    <td><a href="https://www.npmjs.com/package/react-native-app-icon-picker">NPM</a></td>
+  </tr>
+  <tr>
+    <td>Google Drive Picker</td>
+    <td>Google Drive picker component</td>
+    <td><a href="https://www.npmjs.com/package/google-drive-picker">NPM</a></td>
+  </tr>
+  <tr>
+    <td>Textarea Auto Resize</td>
+    <td>React textarea auto resize component</td>
+    <td><a href="https://www.npmjs.com/package/react-textarea-auto-resize">NPM</a></td>
+  </tr>
+</table>
+
+
 
 
 <!--
