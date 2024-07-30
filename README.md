@@ -111,6 +111,11 @@ https://github-readme-stats.vercel.app/api/top-langs/?username=Sivamani-18&theme
 
 ## 🏆 Github Profile Trophy
 
+<!-- For light mode -->
 <a href="https://github.com/Sivamani-18">
-  <img width=800 src="https://github-profile-trophy.vercel.app/?username=Sivamani-18&margin-w=15&theme=onedark"/>
+  <img width="800" src="https://github-profile-trophy.vercel.app/?username=Sivamani-18&margin-w=15&theme=light"/>
 </a>
+
+
+
+
