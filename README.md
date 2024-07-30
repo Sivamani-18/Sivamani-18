@@ -8,7 +8,6 @@ I am a software developer with a passion for creating innovative solutions and l
 - WhatsApp: [+91 7373288133](https://wa.me/7373288133)
 - LinkedIn:  [@Sivamani-18](https://www.linkedin.com/in/sivasubramaniyam-v-a2b967103/)
 
- 
 
 ## 🔧 Technologies & Tools
 ![JavaScript](https://img.shields.io/badge/-JavaScript-333333?style=flat&logo=javascript)
@@ -41,12 +40,8 @@ I am a software developer with a passion for creating innovative solutions and l
 ![Your Name's GitHub stats](https://github-readme-stats.vercel.app/api?username=Sivamani-18&theme=vue-dark&show_icons=true&hide_border=true&count_private=true&include_all_commits=true)
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=Sivamani-18&theme=vue-dark&hide_border=true&count_private=true&include_all_commits=true)
 
-
-
 ![Top Langs](
 https://github-readme-stats.vercel.app/api/top-langs/?username=Sivamani-18&theme=vue-dark&show_icons=true&hide_border=true&layout=compact)
-
-
 
 
 ## 🌟 Projects / Boilerplate / NPM Package
@@ -98,8 +93,6 @@ https://github-readme-stats.vercel.app/api/top-langs/?username=Sivamani-18&theme
     <td><a href="https://www.npmjs.com/package/react-textarea-auto-resize">NPM</a></td>
   </tr>
 </table>
-
-
 
 
 <!--
