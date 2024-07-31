@@ -75,6 +75,11 @@ https://github-readme-stats.vercel.app/api/top-langs/?username=Sivamani-18&theme
     <td>Starter kit for HTML projects using Gulp and TailwindCSS</td>
     <td><a href="https://github.com/Sivamani-18/gulp-tailwind-starter">GitHub</a></td>
   </tr>
+    <tr>
+    <td>Markdown Syntax</td>
+    <td>Here is a list of Markdown syntax examples for README.md, including Mermaid diagrams and code blocks for various languages.</td>
+    <td><a href="https://github.com/Sivamani-18/Markdown-Syntax">GitHub</a></td>
+  </tr>
   <tr>
     <td>Date Picker</td>
     <td>React multi-date picker component</td>
