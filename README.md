@@ -10,31 +10,34 @@ I am a software developer with a passion for creating innovative solutions and l
 
 
 ## 🔧 Technologies & Tools
-![JavaScript](https://img.shields.io/badge/-JavaScript-333333?style=flat&logo=javascript)
-![React](https://img.shields.io/badge/-React-333333?style=flat&logo=react)
-![Next.js](https://img.shields.io/badge/-Next.js-333333?style=flat&logo=next.js)
-![Vite](https://img.shields.io/badge/-Vite-333333?style=flat&logo=vite)
-![Node.js](https://img.shields.io/badge/-Node.js-333333?style=flat&logo=node.js)
-![TypeScript](https://img.shields.io/badge/-TypeScript-333333?style=flat&logo=typescript)
-![Storybook](https://img.shields.io/badge/-Storybook-333333?style=flat&logo=storybook)
-![npm](https://img.shields.io/badge/-npm-333333?style=flat&logo=npm)
-![Ant Design](https://img.shields.io/badge/-AntDesign-333333?style=flat&logo=ant-design)
-![Tailwind CSS](https://img.shields.io/badge/-TailwindCSS-333333?style=flat&logo=tailwind-css)
-![MUI](https://img.shields.io/badge/-MUI-333333?style=flat&logo=mui)
-![Bootstrap](https://img.shields.io/badge/-Bootstrap-333333?style=flat&logo=bootstrap)
-![WordPress](https://img.shields.io/badge/-WordPress-333333?style=flat&logo=wordpress)
-![HTML5](https://img.shields.io/badge/-HTML5-333333?style=flat&logo=html5)
-![CSS3](https://img.shields.io/badge/-CSS3-333333?style=flat&logo=css3)
-![MySQL](https://img.shields.io/badge/-MySQL-333333?style=flat&logo=mysql)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-333333?style=flat&logo=postgresql)
-![Sequelize](https://img.shields.io/badge/-Sequelize-333333?style=flat&logo=sequelize)
-![TypeORM](https://img.shields.io/badge/-TypeORM-333333?style=flat&logo=typeorm)
-![GraphQL](https://img.shields.io/badge/-GraphQL-333333?style=flat&logo=graphql)
-![Figma](https://img.shields.io/badge/-Figma-333333?style=flat&logo=figma)
-![Adobe XD](https://img.shields.io/badge/-AdobeXD-333333?style=flat&logo=adobe-xd)
-![Adobe Photoshop](https://img.shields.io/badge/-AdobePhotoshop-333333?style=flat&logo=adobe-photoshop)
-![Adobe Illustrator](https://img.shields.io/badge/-AdobeIllustrator-333333?style=flat&logo=adobe-illustrator)
-![Adobe Premiere](https://img.shields.io/badge/-AdobePremiere-333333?style=flat&logo=adobe-premiere-pro)
+<a href="https://github.com/Sivamani-18">
+  <img src="https://img.shields.io/badge/-JavaScript-333333?style=flat&logo=javascript" alt="JavaScript"/>
+  <img src="https://img.shields.io/badge/-React-333333?style=flat&logo=react" alt="React"/>
+  <img src="https://img.shields.io/badge/-Next.js-333333?style=flat&logo=next.js" alt="Next.js"/>
+  <img src="https://img.shields.io/badge/-Vite-333333?style=flat&logo=vite" alt="Vite"/>
+  <img src="https://img.shields.io/badge/-Node.js-333333?style=flat&logo=node.js" alt="Node.js"/>
+  <img src="https://img.shields.io/badge/-TypeScript-333333?style=flat&logo=typescript" alt="TypeScript"/>
+  <img src="https://img.shields.io/badge/-Storybook-333333?style=flat&logo=storybook" alt="Storybook"/>
+  <img src="https://img.shields.io/badge/-npm-333333?style=flat&logo=npm" alt="npm"/>
+  <img src="https://img.shields.io/badge/-AntDesign-333333?style=flat&logo=ant-design" alt="Ant Design"/>
+  <img src="https://img.shields.io/badge/-TailwindCSS-333333?style=flat&logo=tailwind-css" alt="Tailwind CSS"/>
+  <img src="https://img.shields.io/badge/-MUI-333333?style=flat&logo=mui" alt="MUI"/>
+  <img src="https://img.shields.io/badge/-Bootstrap-333333?style=flat&logo=bootstrap" alt="Bootstrap"/>
+  <img src="https://img.shields.io/badge/-WordPress-333333?style=flat&logo=wordpress" alt="WordPress"/>
+  <img src="https://img.shields.io/badge/-HTML5-333333?style=flat&logo=html5" alt="HTML5"/>
+  <img src="https://img.shields.io/badge/-CSS3-333333?style=flat&logo=css3" alt="CSS3"/>
+  <img src="https://img.shields.io/badge/-MySQL-333333?style=flat&logo=mysql" alt="MySQL"/>
+  <img src="https://img.shields.io/badge/-PostgreSQL-333333?style=flat&logo=postgresql" alt="PostgreSQL"/>
+  <img src="https://img.shields.io/badge/-Sequelize-333333?style=flat&logo=sequelize" alt="Sequelize"/>
+  <img src="https://img.shields.io/badge/-TypeORM-333333?style=flat&logo=typeorm" alt="TypeORM"/>
+  <img src="https://img.shields.io/badge/-GraphQL-333333?style=flat&logo=graphql" alt="GraphQL"/>
+  <img src="https://img.shields.io/badge/-Figma-333333?style=flat&logo=figma" alt="Figma"/>
+  <img src="https://img.shields.io/badge/-AdobeXD-333333?style=flat&logo=adobe-xd" alt="Adobe XD"/>
+  <img src="https://img.shields.io/badge/-AdobePhotoshop-333333?style=flat&logo=adobe-photoshop" alt="Adobe Photoshop"/>
+  <img src="https://img.shields.io/badge/-AdobeIllustrator-333333?style=flat&logo=adobe-illustrator" alt="Adobe Illustrator"/>
+  <img src="https://img.shields.io/badge/-AdobePremiere-333333?style=flat&logo=adobe-premiere-pro" alt="Adobe Premiere"/>
+</a>
+
 
 ## 📈 GitHub Stats
 ![Your Name's GitHub stats](https://github-readme-stats.vercel.app/api?username=Sivamani-18&theme=vue-dark&show_icons=true&hide_border=true&count_private=true&include_all_commits=true)
