@@ -41,7 +41,7 @@ I am a software developer with a passion for creating innovative solutions and l
 
 ## 📈 GitHub Stats
 ![Your Name's GitHub stats](https://github-readme-stats.vercel.app/api?username=Sivamani-18&theme=vue-dark&show_icons=true&hide_border=true&count_private=true)
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=Sivamani-18&theme=vue-dark&hide_border=true&count_private=true&include_all_commits=true)
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Sivamani-18&theme=vue-dark&hide_border=true)
 
 ![Top Langs](
 https://github-readme-stats.vercel.app/api/top-langs/?username=Sivamani-18&theme=vue-dark&show_icons=true&hide_border=true&layout=compact)
