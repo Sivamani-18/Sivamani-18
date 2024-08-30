@@ -86,9 +86,9 @@ https://github-readme-stats.vercel.app/api/top-langs/?username=Sivamani-18&theme
     <td><a href="https://www.npmjs.com/package/react-multi-date-picker-calendar">NPM</a></td>
   </tr>
   <tr>
-    <td>Icon Picker</td>
-    <td>React Native app icon picker component</td>
-    <td><a href="https://www.npmjs.com/package/react-native-app-icon-picker">NPM</a></td>
+    <td>Favicon Generator</td>
+    <td>The best Dynamic Favicon Generator NPM Library</td>
+    <td><a href="https://github.com/Sivamani-18/faviconify">NPM</a></td>
   </tr>
   <tr>
     <td>Google Drive Picker</td>
@@ -96,9 +96,14 @@ https://github-readme-stats.vercel.app/api/top-langs/?username=Sivamani-18&theme
     <td><a href="https://www.npmjs.com/package/google-drive-picker">NPM</a></td>
   </tr>
   <tr>
-    <td>Textarea Auto Resize</td>
-    <td>React textarea auto resize component</td>
-    <td><a href="https://www.npmjs.com/package/react-textarea-auto-resize">NPM</a></td>
+    <td>Magic Mouse</td>
+    <td>A customizable magic mouse cursor library for React</td>
+    <td><a href="https://github.com/Sivamani-18/magicmouse.ts">NPM</a></td>
+  </tr>
+    <tr>
+    <td>React Typing Effect</td>
+    <td>A lightweight React component for creating a typing effect similar to a typewriter, without any external dependencies.</td>
+    <td><a href="https://github.com/Sivamani-18/typed.ts">NPM</a></td>
   </tr>
 </table>
 
